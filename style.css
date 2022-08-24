@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+    background-color:bisque;
+}
+
+li{
+    display: inline;
+    background-color:blueviolet;
+    margin: auto;
+}
+
+a{
+    padding: 10px;
+    text-align: center;
+}
