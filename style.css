@@ -1,15 +1,45 @@
-ul {
-    list-style-type: none;
-    background-color:bisque;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-li{
-    display: inline;
-    background-color:blueviolet;
+.text{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.navBarlinks{
+    display: flex;
+    list-style-type: none;
     margin: auto;
 }
 
-a{
-    padding: 10px;
-    text-align: center;
+.navBarlinks li{
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    min-height: 80px;
+    background-color:bisque;
+}
+
+.futureList{
+    list-style-type: none;
+}
+
+.aboutMe{
+    padding-top: 50px;
+}
+
+.homeImg{
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
 }
