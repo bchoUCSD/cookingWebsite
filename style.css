@@ -1,7 +1,28 @@
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0px;
-    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    padding: 0.5em;
+    margin: 5px;
+    height: 40px;
+    align-items: center;
+} 
+
+.navButton{
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.navButton:hover{
+    background-color:lightcoral;
 }
 
 .text{
@@ -10,20 +31,20 @@
     padding: 10px;
 }
 
-.navBarlinks{
+.container{
     display: flex;
     list-style-type: none;
-    margin: auto;
-}
-
-.navBarlinks li{
-    margin: 5px;
-}
-
-nav{
-    display: flex;
-    min-height: 80px;
+    margin: 0;
+    padding:0;
     background-color:bisque;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+
+a{
+    display:flex;
+    color: black;
 }
 
 .futureList{
